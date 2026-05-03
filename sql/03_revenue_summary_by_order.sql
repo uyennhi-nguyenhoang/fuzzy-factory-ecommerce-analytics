@@ -1,0 +1,7 @@
+-- ============================================
+-- Fuzzy Factory | Maven Analytics
+-- Table: revenue_summary_by_order
+-- Description: Daily distinct order count
+-- and revenue used for orders KPI in the
+-- Sales Summary dashboard
+-- ============================================

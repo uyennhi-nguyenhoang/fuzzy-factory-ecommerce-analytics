@@ -1,0 +1,7 @@
+-- ============================================
+-- Fuzzy Factory | Maven Analytics
+-- Table: customer_type_by_month
+-- Description: Monthly order counts split
+-- by new vs returning customers based on
+-- lifetime order history using ROW_NUMBER()
+-- ============================================

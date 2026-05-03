@@ -9,6 +9,6 @@ SELECT
   DATE(created_at) AS date,
   COUNT(DISTINCT order_id) AS orders,
   SUM(price_usd) AS revenue
-FROM `e-commerce-project-489316.fuzzy_factory.orders`
+FROM orders
 GROUP BY 1
 ORDER BY 1;

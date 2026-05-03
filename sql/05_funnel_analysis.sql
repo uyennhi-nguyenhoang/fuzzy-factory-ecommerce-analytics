@@ -1,0 +1,7 @@
+-- ============================================
+-- Fuzzy Factory | Maven Analytics
+-- Table: funnel_analysis
+-- Description: Session-level funnel flags
+-- per step aggregated by source, campaign,
+-- device, and date for funnel dashboard
+-- ============================================

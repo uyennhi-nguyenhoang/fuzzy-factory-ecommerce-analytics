@@ -18,8 +18,8 @@ SELECT
   SUM(oi.price_usd) AS revenue,
   SUM(oi.cogs_usd) AS cogs,
   SUM(CASE WHEN r.order_item_id IS NOT NULL THEN 1 ELSE 0 END) AS refunded_items
-FROM `e-commerce-project-489316.fuzzy_factory.order_items` AS oi
-LEFT JOIN `e-commerce-project-489316.fuzzy_factory.order_item_refunds` AS r
+FROM order_items AS oi
+LEFT JOIN order_item_refunds AS r
   ON oi.order_item_id = r.order_item_id
 GROUP BY 1,2
 ORDER BY 1,2;

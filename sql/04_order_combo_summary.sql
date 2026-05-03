@@ -1,0 +1,7 @@
+-- ============================================
+-- Fuzzy Factory | Maven Analytics
+-- Table: order_combo_summary
+-- Description: Product pairing frequency
+-- from self-join on order_items to identify
+-- cross-sell patterns and combo orders
+-- ============================================
